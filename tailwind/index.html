@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../img/rupp.ico" type="image/x-icon" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Metal&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    * {
+      font-family: "Geist", sans-serif;
+    }
+
+    #khmer {
+      font-family: "Metal", serif;
+    }
+
+    #link-header {
+      text-decoration: none;
+    }
+
+    #link-header:hover {
+      color: #e7ae2c;
+      transition: 0.4s ease;
+    }
+  </style>
+
+  <title> Royal university of Phnom Phenh</title>
+
+</head>
+<body class="relative">
+  <!-- top nav -->
+  <nav class="flex justify-around py-4 bg-white/95 shadow-sm w-full sticky top-0 left-0 right-0 z-1">
+    <ul>
+      <li class="inline-block mx-4 items-center">
+        <a id="link-header" href="#home">Home</a>
+      </li>
+      <li class="inline-block mx-4 items-center">
+        <a id="link-header" href="#about">About</a>
+      </li>
+      <li class="inline-block mx-4 items-center">
+        <a id="link-header" href="#project">Project</a>
+      </li>
+      <li class="inline-block mx-4 items-center">
+        <a id="link-header" href="#management">Management</a>
+      </li>
+      <li class="inline-block mx-4 items-center">
+        <a id="link-header" href="#fds">Foundation Studies</a>
+      </li>
+      <li class="inline-block mx-4 items-center">
+        <a id="link-header" href="#iro">IRO</a>
+      </li>
+      <li class="inline-block mx-4 items-center">
+        <a id="link-header" href="#grdp">Graduate Programs</a>
+      </li>
+      <li class="inline-block mx-4 items-center">
+        <a id="link-header" href="#umap">UMAP</a>
+      </li>
+      <li class="inline-block mx-4 items-center">
+        <a id="link-header" href="#contact">Contact</a>
+      </li>
+      <li class="inline-block mx-4 items-center">
+        <a id="link-header" href="#mail">Mail</a>
+      </li>
+      <li class="inline-block mx-4 items-center">
+        <a id="link-header" href="#elibrary">E-Library</a>
+      </li>
+      <li class="inline-block mx-4 items-center">
+        <a id="link-header" href="#journal">Journal</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="text-gray-700 flex m-2 px-8 items-center">
+    <div class="flex">
+      <div class="m-2">
+        <img src="../image/logo-rupp.png" alt="Rupp Logo" class="w-[100px]" />
+      </div>
+      <div class="m-2 flex flex-col justify-center">
+        <h1 class="text-2xl" id="khmer">សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ</h1>
+        <h1 class="text-xl uppercase">Royal University of Phnom Penh</h1>
+      </div>
+    </div>
+  </div>
+  <div class="flex justify-end">
+    <p>Education, Research, and Service to Society</p>
+  </div>
+
+
+  <div class="flex flex-row">
+    <aside class="w-full p-6 sm:w-60 bg-gray-50">
+      <nav class="space-y-8 text-sm">
+        <div class="space-y-2">
+          <h2 class="text-sm font-semibold tracking-widest uppercase text-gray-700">
+            Faculties
+          </h2>
+          <div class="flex flex-col space-y-1 text-gray-700">
+            <a rel="noopener noreferrer" class="hover:text-slate-500" href="#nav-fscience">Faculty of Science</a>
+            <a rel="noopener noreferrer" class="hover:text-slate-500" href="#nav-fssh">Faculty of Social Science and
+              Humanities</a>
+            <a rel="noopener noreferrer" class="hover:text-slate-500" href="#nav-fengineering">Faculty of
+              Engineering</a>
+            <a rel="noopener noreferrer" class="hover:text-slate-500" href="#nav-fds">Faculty of Development Studies</a>
+            <a rel="noopener noreferrer" class="hover:text-slate-500" href="#nav-fedu">Faculty of Education</a>
+          </div>
+        </div>
+        <div class="space-y-2">
+          <h2 class="text-sm font-semibold tracking-widest uppercase dark:text-gray-700">
+            Institutes
+          </h2>
+          <div class="flex flex-col space-y-1">
+            <a rel="noopener noreferrer" class="hover:text-slate-500" href="#nav-ifl">Institute of Foreign Language</a>
+            <a rel="noopener noreferrer" class="hover:text-slate-500" href="#nav-iispp">Institute for International
+              Studies and Public Policy</a>
+          </div>
+        </div>
+        <div class="space-y-2">
+          <h2 class="text-sm font-semibold tracking-widest uppercase dark:text-gray-700">
+            Others
+          </h2>
+          <div class="flex flex-col space-y-1">
+            <a rel="noopener noreferrer" class="hover:text-slate-500" href="#nav-center">Centers</a>
+            <a rel="noopener noreferrer" class="hover:text-slate-500" href="#nav-office">Officies</a>
+            <a rel="noopener noreferrer" class="hover:text-slate-500" href="#nav-confe">Conferences</a>
+          </div>
+        </div>
+      </nav>
+    </aside>
+
+
+    <div id="home" class="pt-4 m-4">
+      <h1 class="text-2xl font-semibold">Home</h1>
+      <div class="w-full flex gap-4 py-6 overflow-x-auto">
+        <img class="h-48 aspect-auto rounded-sm object-cover object-center border border-black"
+          src="https://rupp.edu.kh/img/slider2.jpg" alt="Image 1" />
+        <img class="h-48 aspect-auto rounded-sm object-cover object-center border border-black"
+          src="https://rupp.edu.kh/img/slideshow/silk1.jpg?1732040526773" alt="Image 2" />
+        <img class="h-48 aspect-auto rounded-sm object-cover object-center border border-black"
+          src="https://rupp.edu.kh/img/slideshow/silk2.jpg" alt="Image 3" />
+        <img class="h-48 aspect-auto rounded-sm object-cover object-center border border-black"
+          src="https://rupp.edu.kh/img/slideshow/silk3.jpg" alt="Image 4" />
+        <img class="h-48 aspect-auto rounded-sm object-cover object-center border border-black"
+          src="https://rupp.edu.kh/img/slideshow/silk4.jpg" alt="Image 5" /><img
+          class="h-48 aspect-auto rounded-sm object-cover object-center border border-black"
+          src="https://rupp.edu.kh/img/slideshow/commnunity_event.jpg" alt="Image 6" />
+      </div>
+
+      <section class="py-6">
+        <div class="container grid grid-cols-2 gap-4 mx-auto md:grid-cols-4">
+          <div
+            class="p-1 bg-zinc-100 w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 aspect-square">
+            <p id="khmer" class="p-1 text-sm">
+              <span id="khmer" class="font-bold"> ទាញយកឯកសារ <br /> </span>
+              ពាក្យចូលរៀនឆ្នាំសិក្សា២០២២-២០២៣
+            </p>
+            <ol class="list-decimal ml-5 mt-1">
+              <li>
+                <a class="text-gray-700 hover:text-slate-500 hover:underline"
+                  href="https://rupp.edu.kh/document/RUPP_application_form-Cover-2022_2023.pdf"
+                  target="_blank">ក្របសឺមីទំហំ A3</a>
+              </li>
+              <li>
+                <a class="text-gray-700 hover:text-slate-500 hover:underline"
+                  href="https://rupp.edu.kh/document/RUPP_Admission_Application-2022_2023.pdf"
+                  target="_blank">ពាក្យចុះឈ្មោះចូលរៀនទំហំ A4</a>
+              </li>
+              <li>
+                <a class="text-gray-700 hover:text-slate-500 hover:underline"
+                  href="https://rupp.edu.kh/center/qac/files/Student%20Grievance%20Filling%20form.pdf"
+                  target="_blank">ទម្រង់សម្រាប់បញ្ចេញមតិកែលម្អ</a>
+              </li>
+            </ol>
+            <p class="font-bold mt-2 text-sm">ICT Master Plan and Policy</p>
+            <ul class="list-disc ml-5">
+              <li>
+                <a href="https://www.rupp.edu.kh/document/Master_Plan_with_Executive_Summary.pdf"
+                  class="hover:underline text-[12px]">ICT Master Plan Summary</a>
+              </li>
+              <li>
+                <a href="https://www.rupp.edu.kh/document/Policy_with_Executive_Summary.pdf"
+                  class="hover:underline text-[12px]">ICT Policy Summary</a>
+              </li>
+            </ul>
+
+
+            <p class="font-bold mt-2 text-sm">
+              Cambodia Journal of Basic and Applied Research
+            </p>
+            <ul class="list-disc ml-5">
+              <li>
+                <a href="https://www.rupp.edu.kh/document/CJABJ-06-May-2019-final-final-final.pdf"
+                  class="hover:underline text-[12px]">CJBAR</a>
+              </li>
+              <li>
+                <a href="https://www.rupp.edu.kh/document/research_policies/research%20policy%20khmer-one-page.pdf"
+                  class="hover:underline text-[12px]">Research Policy Khmer</a>
+              </li>
+              <li>
+                <a href="https://www.rupp.edu.kh/document/research_policies/Research-policy-English-Version.pdf"
+                  class="hover:underline text-[12px]">Research Policy English</a>
+              </li>
+              <li>
+                <a href="https://www.rupp.edu.kh/document/research_policies/URM-RUPP-20-08-2023-approved%20by%20rector_Signed.pdf"
+                  class="hover:underline text-[12px]">URM-RUPP 20-08-2023</a>
+              </li>
+            </ul>
+          </div>
+          <div class="p-1 bg-zinc-100 w-full h-full rounded shadow-sm min-h-48 aspect-square">
+            <p id="khmer">សេចក្ដីជូនដំណឹង</p>
+            <p>
+              <a href="https://rupp.edu.kh/document/32_Invitation%20for%20bid%20NCB-G-025%20RUPP.pdf" target="_blank"
+                title="Click to Download"><img class="object-cover w-[80px] h-[100px] my-1"
+                  src="https://rupp.edu.kh/document/Invitation for Bids NCB-G-064.png" alt="" /></a>
+              <a href="https://rupp.edu.kh/document/Invitation%20for%20Bids%20NCB-G-064.pdf"
+                title="Click to download Bidding Advertisement" target="_BlANK"><span
+                  class="font-bold text-red-500">Invitation</span> for
+                Bids NCB-G-064</a>
+            </p>
+          </div>
+          <div class="p-1 bg-zinc-100 w-full h-full rounded shadow-sm min-h-48 aspect-square">
+            <div class="">
+              <h3 class="font-semibold uppercase">Scholarship</h3>
+              <ul class="list-disc ml-5">
+                <li>
+                  <a href="https://www.rupp.edu.kh/scholarship/index.php?display=31"
+                    class="text-[10px] hover:underline">Higher Education for ASEAN Talents (HEAT)</a>
+                </li>
+                <li>
+                  <a href="https://www.rupp.edu.kh/scholarship/index.php?display=30"
+                    class="text-[10px] hover:underline">Nankai University Scholarship</a>
+                </li>
+                <li>
+                  <a href="https://www.rupp.edu.kh/scholarship/index.php?display=28"
+                    class="text-[10px] hover:underline">Scholarship at Hong Kong Polytechnic University</a>
+                </li>
+              </ul>
+              <a href="https://www.rupp.edu.kh/scholarship/"
+                class="text-[10px] text-[#ef4444] hover:underline ml-28">More</a>
+            </div>
+          </div>
+        </div>
+        <h1 class="text-[14px] font-bold">University News</h1>
+        <div class="container flex flex-row gap-2 ">
+          <div class="border border-black flex flex-col p-1 m-1">
+
+            <div class="flex flex-row m-1">
+              <img class="w-[250px] p-2 border " src="https://rupp.edu.kh/news/news_image/170_Job%20Fair%202024.jpg"
+                alt="job fair">
+              <p class="p-2"><a href="https://rupp.edu.kh/news/index.php?display=170" target="_blank"
+                  class="text-sm  hover:underline"><span id="khmer">ជួបគ្នាជាថ្មីនៅក្នុងកម្មវិធី " CJCC ពិព័រណ៏ការងារ
+                    ខែកក្កដា ឆ្នាំ២០២៤ " ដែលរៀបចំឡើងដោយ មជ្ឈមណ្ឌលសហប្រតិបត្ដិការកម្ពុជា-ជប៉ុន (CJCC)</span> </a><span
+                  class="text-[14px]">2024-07-17 22:38:12</span> <br /><span id="khmer"
+                  class="text-[14px]">សំរាប់ព័ត៌មានបន្ថែម : => Tell : 099 918 191​​/096 7117 993 (Telegram) => ចូល <a
+                    href="https://rupp.edu.kh/news/index.php?display=170" target="_blank" class="hover:underline">Read
+                    More...</a></span></p>
+
+            </div>
+            <div class="flex flex-row m-1">
+              <img class="w-[250px] p-2 border " src="https://rupp.edu.kh/news/news_image/169_2_Job%20Fair%202023.jpg"
+                alt="job fair">
+              <p class="p-2"><a href="https://rupp.edu.kh/news/index.php?display=169" target="_blank"
+                  rel="noopener noreferrer" class="hover:underline" id="khmer">ពិព័ណ៌ការងារឆ្នាំ២០២៣</a>
+                <br /><span>2023-12-07 03:29:53</span><br /><span id="khmer">ជួបគ្នាជាថ្មីនៅក្នុងកម្មវិធី " CJCC
+                  ពិព័រណ៍ការងារ ខែធ្នូ ឆ្នាំ២០២៣ " ដែលរៀបចំឡើងដោយ មជ្ឈមណ្ឌលសហប្រតិបត្ដិការកម្ពុជា-ជប៉ុន </span><a
+                  href="https://rupp.edu.kh/news/index.php?display=169" target="_blank" class="hover:underline">Read
+                  More...</a></p>
+            </div>
+          </div>
+          <div class="border border-black p-1 m-1">
+            <img class="w-[250px] p-2 border"
+              src="https://rupp.edu.kh/news/news_image/171_Master%20of%20Education%20Program_Cohort_20.jpg" alt="">
+            <p><a href="https://rupp.edu.kh/news/index.php?display=171" target="_blank" rel="noopener noreferrer"
+                id="khmer" class="hover:underline">ការប្រឡងជ្រើសរើសនិស្សិតចូលរៀនថ្នាក់បរិញ្ញាបត្រជាន់ខ្ពស់ផ្នែកអប់រំ
+                ជំនាន់ទី២០ សម្រាប់ឆ្នាំសិក្សា២០២៤-២០២៥</a><br /><span id="khmer">មេត្តាជ្រាបថា ៖ ក្នុងឆ្នាំសិក្សាថ្មីនេះ
+                មហាវិទ្យាល័យអប់រំ នៃសាកលវិទ្យាល័យភូមិន្ទភ្នំពេញបានរៀបចំការប្រឡងជ្រើសរើសនិស្សិតចូលរៀន</span><a
+                href="https://rupp.edu.kh/news/index.php?display=171" target="_blank" rel="noopener noreferrer"
+                class="hover:underline">Read More</a></p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+  </div>
+  <div id="about" class="p-2 m-2">
+    <h1 class="text-2xl font-semibold">About</h1>
+    <p>
+    <h2 class="font-semibold uppercase">Introduction</h2>
+    <p>The Royal University of Phnom Penh (RUPP), founded in 1960, has undergone a series of transformations to become
+      the leading national university in Cambodia. Other transformations are still happening. In the last five years,
+      for example, Rupp has made considerable progresses in many areas including organizational structure, institutional
+      governance, capacity building, infrastructure development, research, teaching and learning, curriculum
+      development, and quality assurance. These achievements have encouraged RUPP management and faculty to strive
+      harder to implement the institutional reform and achieve development goals.</p>
+    <p>Looking towards the future, Rupp will grasp opportunities and assume a key role in driving Cambodia’s
+      socio-economic development through the creation of human capital and the provision of quality research, training
+      and community service. Rupp aspires to contribute to the achievement of the 2030 and 2050 national development
+      goals of the Royal Government of Cambodia as well as the higher education vision of the Ministry of Education,
+      Youth, and Sport.</p>
+    <p>Against this backdrop, this Strategic Plan 2019-2023 has been developed to guide Rupp in realizing its
+      development vision and goals for the next five years. It will serve as a roadmap for the university to orient its
+      focus and for its sub-units to devise their own action plans accordingly. The strategic plan will move Rupp closer
+      to assuming its place among other national universities in the ASEAN region as a center for intellectual and
+      cultural development.</p>
+    <img src="https://rupp.edu.kh/images/rupp_chart.jpg" alt="">
+    <h2 class="font-semibold uppercase">Vision</h2>
+    <p>To be Cambodia’s flagship university with regional standing in teaching and learning, research and innovation,
+      and social engagement.</p>
+    <h2 class="font-semibold uppercase">Mission</h2>
+    <p>To contribute to national, regional, and global sustainable development and the preservation of national cultural
+      and natural heritage by</p>
+    <ul class="list-disc ml-5">
+      <li>equipping our students with the essential knowledge, skills, values, and attitudes required by the
+        information- and knowledge-based society;</li>
+      <li>providing high quality research and innovation;</li>
+      <li>being actively engaged with society.</li>
+    </ul>
+    <h2 class="font-semibold uppercase">Goals</h2>
+    <p class="ml-4"><span class=" font-semibold ">Goal 1 :</span> Enhance teaching and learning</p>
+    <p class="ml-4"><span class=" font-semibold ">Goal 2 :</span> Promote Research and Innovation</p>
+    <p class="ml-4"><span class=" font-semibold ">Goal 3 :</span> Develop well-rounded citizenship and effective
+      leadership</p>
+    <p class="ml-4"><span class=" font-semibold ">Goal 4 :</span> Promote sustainable development and preserve Cambodian
+      cultural and natural heritage</p>
+    <p class="ml-4"><span class=" font-semibold ">Goal 5 :</span> Expand social engagement</p>
+
+    <h2 class="font-semibold uppercase">History</h2>
+    <p>The Royal University of Phnom Penh first opened its doors as the Royal Khmer University on January 13, 1960, with
+      a National Institute of Judicial and Economic Studies, a Royal School of Medicine, a National School of Commerce,
+      a National Pedagogical Institute, a Faculty of Letters and Human Sciences, and a Faculty of Science and
+      Technology. The language of instruction during this period was French.</p>
+
+    <p> With the establishment of the Khmer Republic, the Royal Khmer University became the Phnom Penh University.
+      Between 1965 and 1975 the university consisted of the Ecole Normale Supérieure, the Faculties of Letters and
+      Humanities, Science, Pharmacy, Law and Economics, Medicine and Dentistry, Commerce, Pedagogy and the Language
+      Institute.</p>
+
+
+    <p> Between 1975 and 1979, the Khmer Rouge regime forced the cessation of formal education. Schools and universities
+      were closed and destroyed, and teaching services decimated. Along with all other educational institutions in
+      Cambodia, Phnom Penh University ceased to function during this time. The Khmer Rouge targeted the educated, and
+      many of the University’s faculty members were killed. Of the educated people who survived the regime, few chose to
+      remain in Cambodia once its borders reopened. Deserted for almost five years, the campus became another victim of
+      the grim period during the Pol Pot regime.</p>
+    <p> In 1980, the Ecole Normale Supérieure reopened, again teaching predominantly in French. The following year saw
+      the opening of the Institute of Foreign Languages (IFL), initially training students to become Vietnamese and
+      Russian language teachers. Both colleges focused on training students to become teachers, thus rebuilding the
+      education system within Cambodia. </p>
+
+    <p> In 1988, the Ecole Normale Supérieure merged with the IFL to create Phnom Penh University. In 1996, the
+      university underwent its final change of name, becoming the Royal University of Phnom Penh.</p>
+    <p>During the past decade, the University has continued to grow and now includes the Faculty of Science, Faculty of
+      Social Sciences and Humanities, and the Institute of Foreign Languages. New departments and degree programs are
+      developed regularly to keep up with the changing needs of Cambodian society. In keeping with its commitment to
+      higher education, RUPP began to develop postgraduate degrees at a Masters level since 2001.</p>
+  </div>
+  </div>
+
+  <div class="p-2 m-2" id="project">
+    <h1 class="text-2xl font-semibold">Project</h1>
+    <div class="border-y-2 flex items-center justify-center mb-2">
+      <h1 class="text-xl font-semibold">Current Project</h1>
+    </div>
+    <table class="table-auto ">
+      <thead class="uppercase">
+        <tr>
+          <th class="border ">No</th>
+          <th class="border ">Project Name</th>
+          <th class="border ">Description</th>
+          <th class="border ">Co-Found By</th>
+          <th class="border ">Status</th>
+        </tr>
+      </thead>
+      <tbody class="border">
+        <tr>
+          <td class="border w-[5%] text-center">1</td>
+          <td class="border w-[10%] p-4"><img src="https://rupp.edu.kh/project_img/hub4growth_logo.png" alt=""></td>
+          <td class="border w-[50%] p-4">
+            <p>Cooperation between university and industry plays a crucial role for skill development, employment
+              opportunities for graduate, innovation and technology transfer, and the promotion of entrepreneurship. The
+              importance of cooperation between HEIs and their socio-economic environment is being addressed in Europe
+              within the current 'Europe 2020 Strategy'.
+              Our University-Industry Cooperation Center (UICC) of the RUPP have been supported with Capacity Building
+              (CBHE) under Hub4Growth Project of Erasmus + with upgreading staffs' capacity and improving our needed
+              equipments that help foster the work regarding the cooperation between our University with Industries.
+              Thanks to Erasmus+ for the funding us under Hub4Growth Project. <a
+                href="http://www.rupp.edu.kh/center/uicc/" class="hover:underline">Read More</a></p>
+            <p><span class="font-semibold">The whole project detail: </span><a
+                href="https://rupp.edu.kh/content.php?page=project#" target="_blank" rel="noopener noreferrer"
+                class="underline">Go to hub4growth</a></p>
+          </td>
+          <td class="border w-[15%] p-4 text-center"><img src="https://rupp.edu.kh/project_img/eu-logo_program.jpg"
+              alt=""></td>
+          <td class="border w-[10%] p-4 text-center">Final Stage</td>
+        </tr>
+        <tr class="bg-zinc-100">
+          <td class="border w-[5%] text-center">2</td>
+          <td class="border w-[10%] p-4"><img src="https://rupp.edu.kh/project_img/hr4asia_logo.png" alt=""></td>
+
+          <td class="border w-[50%] p-4">
+            <p>HR unit is progressed under Personnel Office to manage all staffs including full-time, part-time,
+              official, and contracted staffs, and also evaluate staffs’ performance for promotion once staffs applied
+              for. Human Resource Management is very important of each and every organization. Without Human Resource
+              management and with only technical staffs, the outcomes/ result of the whole organization would not be
+              satisfied enough. The Human Resource Management has to be in place in order to achieve maximizing output
+              from effective and efficient HRM.
+
+              Personnel Office of the RUPP have been supported with Capacity Building (CBHE) under HR4Asia project of
+              Erasmus+ to our officers, with upgreading staffs' capacity and improving our needede quipments that help
+              foster the work regarding HRM. Thanks to Erasmus+ for the funding under HR4Asia Project. <a
+                href="http://www.rupp.edu.kh/center/hr4_asia" class="hover:underline">Read More</a></p>
+            <p><span class="font-semibold">The whole project detail: </span><a href="http://hrm.ruppproject.com/"
+                target="_blank" rel="noopener noreferrer" class="underline">Go to hrm.ruppproject.com</a></p>
+          </td>
+          <td class="border w-[15%] p-4 text-center"><img src="https://rupp.edu.kh/project_img/eu-logo_program.jpg"
+              alt=""></td>
+          <td class="border w-[10%] p-4 text-center">Final Stage</td>
+        </tr>
+        <tr>
+          <td class="border w-[5%] text-center">3</td>
+          <td class="border w-[10%] p-4"><img src="https://rupp.edu.kh/project_img/sica-logo.jpg" alt=""></td>
+          <td class="border w-[50%] p-4">
+            <p>We have applied this SICA project since it is to contribute to Cambodian Higher Education Vision 2030
+              through the improvement of internal Quality Assurance in Cambodian HEIs, Specially, it aims at building up
+              a technical capacity and establishing an institutional quality assurance culture in RUPP.
+
+              Our Quality Assurance Center (QAC) of the RUPP have been supported with Capacity Building (CBHE) under
+              SICA Project of Erasmus + with upgrading staffs' capacity and improving our needed equipment that help
+              foster the work regarding the strengthening the Quality Assurance at our University. Thanks to Erasmus+
+              for the funding us under SICA Project. <a href="http://www.rupp.edu.kh/center/qac/"
+                class="hover:underline">Read More</a></p>
+            <p><span class="font-semibold">The whole project detail: </span><a href="http://www.sica-project.eu/"
+                target="_blank" rel="noopener noreferrer" class="underline">Go to hrm.ruppproject.com</a></p>
+          </td>
+          <td class="border w-[15%] p-4 text-center"><img src="https://rupp.edu.kh/project_img/eu-logo_program.jpg"
+              alt=""></td>
+          <td class="border w-[10%] p-4 text-center">On going</td>
+        </tr>
+        <tr class="bg-zinc-100">
+          <td class="border w-[5%] text-center">4</td>
+          <td class="border w-[10%] p-4"><img src="https://rupp.edu.kh/project_img/GEReSHCAM_Logo.png" alt=""></td>
+          <td class="border w-[50%] p-4">
+            <p>The European project GEReSH-CAM aims to support Cambodian academics in shaping a policy of research and
+              innovation in the social sciences and humanities in Cambodia. GEReSH-CAM project covers a period of three
+              years, from october 2016 to October 2019 and is supported by the Erasmus + program of the European Union.
+              It is a capacity building project implemented in the framework of Erasmus + Key Action Cooperation for
+              innovation and the exchange of good practices. The primary objective of GEReSH-CAM project is to support
+              the Kingdom of Cambodia (partner country) in addressing the problems encountered by its higher education
+              system, particularly the problems of quality, relevance, management and governance.</p>
+            <p><span class="font-semibold">The whole project detail: </span><a href="https://www.geresh-cam.eu/-en-"
+                target="_blank" rel="noopener noreferrer" class="underline">Go to hrm.ruppproject.com</a></p>
+          </td>
+
+          <td class="border w-[15%] p-4 text-center"><img src="https://rupp.edu.kh/project_img/eu-logo_program.jpg"
+              alt=""></td>
+          <td class="border w-[10%] p-4 text-center">Final Stage</td>
+        </tr>
+        <tr>
+          <td class="border w-[5%] text-center">5</td>
+          <td class="border w-[10%] p-4 text-center underline"><a href="http://hrm.ruppproject.com/" target="_blank"
+              rel="noopener noreferrer">DEEM</a></td>
+          <td class="border w-[50%] p-4">
+            <p>The project aims to integrate futures and sustainability thinking, promote innovation and
+              entrepreneurship, build public-private partnerships and include innovative teaching methods. Associate
+              partners from the national governments and civil society provide guidance on most relevant challenges and
+              skills needed.
+
+              The wider objective is to ensure that the partner HEIs are able to respond to the capacity and employment
+              needs of sustainable energy development in Cambodia, Laos and Myanmar. The objective will have a direct
+              link to strengthening the integration of sustainable energy goals into national level energy policies,
+              provide qualified energy experts into the local, national and regional labor markets and foster greater
+              collaboration between the traditionally siloed public and private sectors and increase regional level
+              cooperation and mobility in research, entrepreneurship and innovation. The possible direct short term
+              impacts include modernisation and internationalisation of HEIs, and in long term the project will
+              contribute to sustainable energy policies, mitigation of climate GHG emissions and climate change, energy
+              security and better access to energy for all.</p>
+            <p><span class="font-semibold">The whole project detail: </span><a href="https://erasmus-deem.fi/"
+                target="_blank" rel="noopener noreferrer" class="underline">Go to erasmus-deem.fi</a></p>
+          </td>
+          <td class="border w-[15%] p-4 text-center"><img src="https://rupp.edu.kh/project_img/eu-logo_program.jpg"
+              alt=""></td>
+          <td class="border w-[10%] p-4 text-center">Completed</td>
+        </tr>
+        <tr class="bg-zinc-100">
+          <td class="border w-[5%] text-center">6</td>
+          <td class="border w-[10%] p-4"><img src="https://rupp.edu.kh/project_img/nexus_2_solid_wr.png" alt=""></td>
+          <td class="border w-[50%] p-4">
+            <p>The Nodes of Excellence in (SEA) Universities through Spatial Data NEXUS project is an Erasmus + CBHE
+              (Capacity Building in High Education) proposal whose main aim is to enhance the research capacities of
+              HEIs in the southeast Asian region, by strengthening relationships between Education, Research and
+              Innovation in GIS, SDI and remote sensing, for applications that are related to environment, agriculture
+              and situations of emergency. The project will develop a common nexus between various actors of research
+              and innovation (HEIs, research centers, spin-off companies) in Thailand, Myanmar and Cambodia where
+              specific methodologies for innovation transfer are convergent with EU developments in accordance with
+              Europe 2020 strategy and Smart specialisation initiatives which is a new engine to boost R&D growth and
+              subsequently job opportunities and business creation. This will improve the transfer of innovation from
+              universities to local and regional enterprises, enhancing their innovation potential for geodata use and
+              generating new applied research.</p>
+            <p><span class="font-semibold">The whole project detail: </span><a href="https://sea-spatialdata-nexus.com/"
+                target="_blank" rel="noopener noreferrer" class="underline">Go to sea-spatialdata-nexus.com</a></p>
+          </td>
+          <td class="border w-[15%] p-4 text-center"><img src="https://rupp.edu.kh/project_img/eu-logo_program.jpg"
+              alt=""></td>
+          <td class="border w-[10%] p-4 text-center">On going</td>
+        </tr>
+        <tr>
+          <td class="border w-[5%] text-center">7</td>
+          <td class="border w-[10%] p-4"><img src="https://rupp.edu.kh/project_img/consea.png" alt=""></td>
+
+          <td class="border w-[50%] p-4">
+            <p>Developing curricula for Environmental safety and Conservation of the Biodiversity in South-East Asia
+              (CONSEA) aims to ensure Biodiversity Conservation & Environmental sustainability around the Mekong basin
+              through the development of an effective education programme at the Master and PhD levels as a
+              collaborative effort between countries in Southeast Asia (Cambodia and Vietnam) and European.</p>
+            <p><span class="font-semibold">The whole project detail: </span><a href="ttp://www.conseaedu.eu/"
+                target="_blank" rel="noopener noreferrer" class="underline">Go to conseaedu.eu</a></p>
+          </td>
+          <td class="border w-[15%] p-4 text-center"><img src="https://rupp.edu.kh/project_img/eu-logo_program.jpg"
+              alt=""></td>
+          <td class="border w-[10%] p-4 text-center">On going</td>
+        </tr>
+        <tr class="bg-zinc-100">
+          <td class="border w-[5%] text-center">8</td>
+          <td class="border w-[10%] p-4"><img src="https://rupp.edu.kh/project_img/balance-logo.png" alt=""></td>
+          <td class="border w-[50%] p-4">
+            <p>Government public expenditure reduction is one of the many challenges that Cambodian Higher Education
+              System is facing. Explosive growth in enrollment, difficulties to recruit and retain highly qualified
+              staff and obsolete facilities also contribute to affect the quality of the education and therefore the
+              increasing of graduate unemployment or under-employment.
+
+              BALANCE consortium identified the improvement of the HEIs Financial Management as the key point to target
+              in order to face the above mentioned challenges and satisfy the government demands. Indeed, Financial
+              Management is the cornerstone of institutional management and quality education.</p>
+            <p><span class="font-semibold">The whole project detail: </span><a href="https://www.balance-project.eu/"
+                target="_blank" rel="noopener noreferrer" class="underline">Go to balance-project.eu</a></p>
+          </td>
+          <td class="border w-[15%] p-4 text-center"><img src="https://rupp.edu.kh/project_img/eu-logo_program.jpg"
+              alt=""></td>
+          <td class="border w-[10%] p-4 text-center">On going</td>
+        </tr>
+        <tr>
+          <td class="border w-[5%] text-center">9</td>
+          <td class="border w-[10%] p-4"><img src="https://rupp.edu.kh/project_img/Logo-Factori-4.0.png" alt=""></td>
+          <td class="border w-[50%] p-4">
+            <p>For these ASIAN countries, the industrial structure of the economy is still at its beginning and is
+              facing many challenges with their education system. One of them is the lack of expert education with
+              corresponding skills to work on new technology of automation in processing and manufacturing system. <span
+                class="font-bold">ASEAN FACTORI 4.0</span> project is proposed to contribute to this challenge by the
+              design of a set of industrial automation labs with a corresponding staff training program to initiate the
+              foundation of center of excellence in automation in each institute, different kinds of pedagogical process
+              will be implemented to creative a network of competencies among our partner countries following their
+              local needs and to permit cross learning approach during the project. Through the industrial 4.0 roadmap,
+              the project is the first step to educate students to prepare a future generation of qualified workers able
+              to implement advanced manufacturing and processing machinery.</p>
+            <p><span class="font-semibold">The whole project detail: </span><a
+                href="https://factori-erasmus-project.eu/" target="_blank" rel="noopener noreferrer"
+                class="underline">Go to factori-erasmus-project.eu</a></p>
+          </td>
+          <td class="border w-[15%] p-4 text-center"><img src="https://rupp.edu.kh/project_img/eu-logo_program.jpg"
+              alt=""></td>
+          <td class="border w-[10%] p-4 text-center">On going</td>
+        </tr>
+        <tr class="bg-zinc-100">
+          <td class="border w-[5%] text-center">10</td>
+
+          <td class="border w-[10%] p-4"><img src="https://rupp.edu.kh/project_img/logo-21stteachskill-05.jpg" alt="">
+          </td>
+          <td class="border w-[50%] p-4">
+            <p><span class="font-bold">21st century Skills Project:</span> Teacher Training with Specialization on life
+              and information technology skills (21st century TeachSkills) Effective15-11-2019 and end on 14-11-2022
+              The educational curriculum seems to not successfully match with the 21st century skills requirements. In
+              order to develop a student-centered learning environment, cover successfully the needs of a growing
+              diverse population of children in China, India and Cambodia with a variety of multi-cultural, multi-
+              linguistics and multi-ability needs and respond to the gap in skills set in the labour market and society,
+              shortage of qualified teachers and poor level of student learning this proposal aims at transferring
+              knowledge, best practices and experience on innovative and ICT-based teaching methodology on 21st skills
+              acquisition from HEIs in Programme Countries to the HEIs of Partner Countries that will be benefitted
+              directly from this project. This project worked under Department Information Technology of Engineering of
+              Faculty Engineering, aims to
+            <ul class="list-disc ml-6">
+              <li>Improve the quality of higher education and life-long learning by offering online learning system and
+                transferring new teaching ICT-based methodologies to the Partner Countries as well as innovative
+                assessment tools for evaluation of 21stcentury skills. -Enhance the relevance of education for the
+                labour market and society by making the acquisition of 21st skills the highest priority for pupils and
+                thus contributing to the upskilling of school graduates who want to be incorporated in the labor market
+                and will prepared to satisfy the ever-growing demands of a globalized market.</li>
+              <li>Improve the level of competences and skills in the HEIs by developing new and innovative education
+                courses for pre-service and in-service teachers and educators, which will modernise the curricula
+                offered and will offer innovative MOOCs.</li>
+              <li>Enhance the innovation capacities as well as the internationalisation of HEIs by promoting
+                transnational cooperation and networking in the field of application and tool development and better
+                exploitation of ICT potential, use of toolboxes for learning and extent use of virtual platforms for
+                learning, as well as by developing common pedagogical practices in a globalized market.</li>
+              <li>Promote voluntary convergence with EU developments of curriculum development in the field of education
+                studies in higher education system through the sharing of best practices and know-how and the promotion
+                of e-learning. -Promote people-to-people contacts, intercultural awareness and understanding with the
+                development of an open digital education platform which will launch a section for learning communities
+                in the educational platform for academics and will help grow them into something influential in the
+                field of Education. Exchange of best practices, tools and methodologies will help the development of
+                personal contacts and the enriching of professional knowledge without the limits of borders or specific
+                to a culture. Concerning the feasibility of project objectives, there is broad confidence in the great
+                capacity of the EU- HEIs which have qualified academic personnel with great expertise on the field of
+                education and implementation of EU projects. The EU-HEIs have contributed to the design of a project
+                that has feasible goals. Additionally, the Asian HEIs have assessed the need and challenges of
+                educational reform in their countries and region and how the skills should meet the needs of the labor
+                market as well as the challenges of the globalized world.</li>
+            </ul>
+            </p>
+
+            <p><span class="font-semibold">The whole project detail: </span><a href="https://21stteachskills-vle.eu/"
+                target="_blank" rel="noopener noreferrer" class="underline">Go to the Educational Programme of
+                21stTeachSkill</a></p>
+          </td>
+          <td class="border w-[15%] p-4 text-center"><img src="https://rupp.edu.kh/project_img/eu-logo_program.jpg"
+              alt=""></td>
+          <td class="border w-[10%] p-4 text-center">On going</td>
+        </tr>
+        <tr>
+          <td class="border w-[5%] text-center">11</td>
+          <td class="border w-[10%] p-4"><img src="https://rupp.edu.kh/project_img/SDGs_Journalism.jpg" alt=""></td>
+          <td class="border w-[50%] p-4">
+            <p>
+              <span class="font-bold">SDGs Project:</span>Sustainable Development Goals in Journalism Reporting
+              Effective 15 may 2020
+            </p>
+            <p>Media is an important stakeholder in regard to societies reaching the goals of development-both as a
+              contributor and a beneficiary. Notwithstanding, the Communication and media studies curriculum in the
+              Asian HEIs seem to not successfully match with the skills required for effective sustainable development
+              reporting in order to delivery the 2030 Agenda. The new courses will respond to the need for modernization
+              of curricula in journalism and media reporting in the PC-HEIs, the need for journalist education with
+              focus on sustainable development as well as the need for strong journalistic and pluralistic media system
+              and the process of sustainable development. The curriculum content is designed to install the skills and
+              level of data literacy necessary to produce both short data stories on a deadline as well as longer
+              in-depth stories that explain underlying development challenges facing the region through data and digital
+              storytelling. By choosing what is in a story, how the story is told, and the diversity of stories,
+              journalists and editors have the capacity to enhance or limit the information people will use to form
+              opinions and make decisions. Specifically, the objective pursued is in department of Media and
+              Communication of Faculty of Social Science and Humanities of RUPP.</p>
+            <p><span class="font-semibold">The whole project detail: </span><a
+                href="https://www.journalism-reporting.eu/about-us#:~:text=It%20is%20a%20program%20based,government%20policies%20and%20public%20awareness."
+                target="_blank" rel="noopener noreferrer" class="underline"> Go to Jounalism Reporting</a></p>
+            <p><span class="font-semibold">Facebook Page: </span><a
+                href="https://www.facebook.com/DMC.CCI/posts/pfbid0ToSNvGznipGM1dnRQ9qCUwcWpgPaBncGvuV1iSwtG8NfEpN4bpsgYEpJWohTLAESl"
+                target="_blank" rel="noopener noreferrer" class="underline"> Go to Facebook page's Journalism
+                Reporting</a></p>
+            <p><span class="font-semibold">Telegram Group: </span><a href="https://t.me/dmccci/734" target="_blank"
+                rel="noopener noreferrer" class="underline"> Go to Telegram Group</a></p>
+          </td>
+          <td class="border w-[15%] p-4 text-center"><img src="https://rupp.edu.kh/project_img/eu-logo_program.jpg"
+              alt=""></td>
+          <td class="border w-[10%] p-4 text-center">On going</td>
+        </tr>
+        <tr class="bg-zinc-100">
+          <td class="border w-[5%] text-center">12</td>
+          <td class="border w-[10%] p-4"><img src="https://rupp.edu.kh/project_img/angel.png" alt=""></td>
+          <td class="border w-[50%] p-4">
+            <p>
+              <span class="font-bold">ANGEL Project:</span>ASEAN Network for Green Entrepreneurship and Leadership/
+              ANGEL Effective :15 Jan 2021
+            </p>
+
+            <p>A creation of strong network for green entrepreneurship and transformational leadership can be a catalyst
+              for innovation and development as well as sustainable transformation (EU, ASEAN, UNDP, UNESCO, OECD).
+              ANGEL aims to build the capacity necessary in eleven ASEAN Universities for balancing the high potential
+              economic growth and innovation in the partner countries with their lack of capacities in green
+              entrepreneurship as well as resolving entrenched issues and challenges of poverty, low quality jobs in the
+              informal sector, digital divide and leadership gaps.</p>
+            <p>Its objectives are:</p>
+            <ul class="list-disc ml-6">
+              <li>to address green entrepreneurship and transformational leadership and social innovation challenges.
+                The ASEAN nations involved in this ANGEL project is at the lower spectrum of innovation, high-tech
+                sectors and effective sanitation. Still, they have developed aspirations to improve living conditions by
+                moving from a subsistence agricultural economy to commercial-based farming as well as high-based
+                technology and energy. This is where ANGEL aims to create a difference in supporting such transition
+                economies in Lao PDR, Vietnam and Cambodia.</li>
+              <li>to build a high calibre network of future green entrepreneurial-leaders with effective and efficient
+                style of management who could uphold ethics and good governance while able to connect with the
+                local/regional and international market ecosystem with a multiplier effect in the ASEAN region. ANGEL
+                takes issues of leadership as a prime concern in order to improve current institutional settings and
+                professional practices which in some contexts are laden with cases of cronyism, corruptions and
+                incompetence.</li>
+            </ul>
+            <p>Against the above general aims of ANGEL, the project specifically designs the following objectives in the
+              hope to develop an innovative green entrepreneurial-leadership ecosystem that will foster:</p>
+            <ul class="list-disc ml-6">
+              <li>Guidance: an online guide will offer practical, personalized information for building and leading a
+                green enterprise; a targeted training programme, complemented with personal coaching will support the
+                creation of start-ups.</li>
+              <li>Engagement: a university network will reach and mobilize both internal and external stakeholders
+                through its ANGEL- Innovate Unit. Internal stakeholders would include faculty members, administrative
+                staff, researchers, students and relevant external partners could be social entrepreneurs, start-ups and
+                government agencies that relates to green entrepreneurship. The ANGEL- Innovate unit will orient
+                learners to the process of design thinking; effective and responsible leadership, supporting grassroot
+                green entrepreneurship and developing patent/copyright.</li>
+              <li>Exchanges and sharing: the ANGEL-Hub will be a centre for the development of early-stage startups in
+                green technologies, energy and sustainable development; the ANGEL-Site will provide all the information
+                for the development and visibility of startups; the ANGEL-Community will connect all relevant parties in
+                the University and external stakeholders in exchanging experiences and ideas.</li>
+              <li>Support: the ANGEL-Enterprise team will have the mission to support and advance ANGEL in the long term
+                through a. the development of expertise in the commercialization of Universities’ knowledge and
+                technology, b. partnership-building with the external regional/national/international entrepreneurial
+                ecosystem.</li>
+
+
+            </ul>
+            <p>It’s was capacity building an Industrial Linkage and National Incubation Center.</p>
+            <p><span class="font-semibold">The whole project detail: </span><a href="https://angel-project.eu/"
+                target="_blank" rel="noopener noreferrer" class="underline">Go to angel-project.eu</a></p>
+          </td>
+          <td class="border w-[15%] p-4 text-center"><img src="https://rupp.edu.kh/project_img/eu-logo_program.jpg"
+              alt=""></td>
+          <td class="border w-[10%] p-4 text-center">On going</td>
+        </tr>
+        <tr>
+          <td class="border w-[5%] text-center">13</td>
+          <td class="border w-[10%] p-4"><img src="https://rupp.edu.kh/project_img/official%20FAB%20logo.png" alt="">
+          </td>
+          <td class="border w-[50%] p-4">
+            <p>
+              <span class="font-bold">FAB Project:</span>
+            </p>
+            <p>The FAB project is an Erasmus+ KA2 Capacity Building in the field of Higher Education that aims to
+              develop a MSc. program in Family Business Administration in order to address the unique challenges that
+              family businesses in Cambodia, Malaysia, Philippines, Bangladesh, Bhutan, Nepal face and hamper their
+              growth and development.
+              The FAB project develops a new master’s degree in Family Business Management supported by a VET
+              professional training course, six centers of excellence that promote cooperation, innovation and career
+              development and a VLE consisting of an Academic Space, a Virtual Library and Massive Online Open Courses.
+
+              A learning outcomes approach is followed that will reflect the context, scope and content of the programme
+              and will be linked with appropriate learning activities, assessment methods and assessment criteria.
+
+              The FAB MSc. programme will apply know-how, best practices and processes from European HEIs, namely
+              Portugal, Greece and Cyprus, thus filling the academic gap and addressing the regions business needs and
+              demand for specialised personnel.
+
+            </p>
+            <p><span class="font-semibold">The whole project detail: </span><a href="https://fab-project.eu/"
+                target="_blank" rel="noopener noreferrer" class="underline"> Go to https://fab-project.eu/</a></p>
+          </td>
+          <td class="border w-[15%] p-4 text-center"><img src="https://rupp.edu.kh/project_img/eu-logo_program.jpg"
+              alt=""></td>
+          <td class="border w-[10%] p-4 text-center">On going</td>
+        </tr>
+        <tr class="bg-zinc-100">
+          <td class="border w-[5%] text-center">14</td>
+          <td class="border w-[10%] p-4"><img src="https://rupp.edu.kh/project_img/CIRCULAR%20Project.png" alt=""></td>
+          <td class="border w-[50%] p-4">
+            <p>
+              <span class="font-bold">CIRCULAR Project: Circular Economy Living Laboratories supporting Social
+                Innovation in Southeast Asia:</span>
+            </p>
+            <p>CIRUCULAR is a collaborative project of capacity building in Higher Education Institutions to promote
+              research in the field of circular economy in Malaysia, Cambodia and Laos. The project is being implemented
+              jointly by the Universiti Sains Malaysia (USM) – Malaysia, Universiti Malaysia Sarawak (UNIMAS) –
+              Malaysia, Royal University of Phnom Penh (RUPP) – Cambodia, Svay Rieng University (SRU) – Cambodia,
+              National University of Laos (NUOL) – Laos, Savannakhet University (SKU)- Laos, Universidad De Almeria
+              (UAL) – Spain, Instituto Politecnico De Coimbra (IPC) – Portugal, and International Consulting and
+              Mobility Agency Sociedad De Responsabilidad Limitada (INCOMA) – Spain. The project is funded by European
+              Union under the ERASMUS-EDU-2022-CBHE-STRAND-2 over three years period from 2023 to 2025. For Cambodia
+              activities, the project is coordinated by MSc in Climate Change Program (MCC), Graduate School of Science,
+              Royal University of Phnom Penh.
+
+              The project goal is to boost the social innovation ecosystem in Malaysia, Cambodia and Laos by bringing
+              together and reinforcing the links between Teaching, Research, Innovation and Society in order to
+              collaboratively design and test innovative solutions to mitigate waste management problems, promote
+              circular economy approaches and improve the quality of life of local communities, supported by a socially
+              engaged student body that is committed to environmental sustainability.
+
+              In order to achieve the above goal, the specific objectives of this project try to:
+            </p>
+            <p>SO #1 - Design a new collaborative model for reinforcing Higher Education Institutions’ third mission and
+              for enhancing effective and successful Knowledge Square cooperation for social innovation with a specific
+              focus on the topic of circular economy.</p>
+            <p>SO #2 - Enhance community-based participatory research and citizen science at the same time promoting a
+              new pedagogical framework for embedding community engagement actions as part of Higher Education study
+              programmes.</p>
+            <p>SO #3 - Set-up Living Labs as open innovation ecosystems that integrate education, research, development
+              and innovation, and regional development to help trigger the adoption of green and more sustainable
+              practices and a more efficient use of resources.</p>
+            <p>SO #4 - Build the capacities of academics to design, organise and implement collaborative social
+              innovation programmes that promote students’ active citizenship and simultaneously contribute to solve
+              everyday sustainability and climate- change problems, based on innovative and tailored pedagogical
+              methodologies.</p>
+            <p>SO #5 - Build the capacities of researchers on new methodologies and updated strategies to conduct
+              community-based research activities on the topic of circular economy and waste management following the
+              highest research practices through Living Labs.</p>
+            <p>SO #6 - Empower students and young people to become socially-engaged, climate-conscious and active
+              citizens by developing their knowledge, skills, values and attitudes to become models in promoting
+              behavioural change in what concerns their individual preferences, consumption habits and lifestyles
+              supporting environmental sustainability.</p>
+            <p>SO #7 - Raise the awareness of students, young people and members of local communities on the topic of
+              circular economy and sustainable development, and promote alternative consumption habits and waste
+              management practices underpinned by knowledge, research and innovation generated by HEIs.</p>
+            <p><span class="font-semibold">For more details of project: </span><a href="https://circularproject.org/"
+                target="_blank" rel="noopener noreferrer" class="underline"> https://circularproject.org/</a></p>
+          </td>
+          <td class="border w-[15%] p-4 text-center"><img src="https://rupp.edu.kh/project_img/eu-logo_program.jpg"
+              alt=""></td>
+          <td class="border w-[10%] p-4 text-center">On going</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <div id="management" class="p-2 m-2">
+    <h2 class="text-3xl font-bold text-center">Management Team</h2>
+    <div class="border-y-2 flex items-center justify-center mb-2">
+      <h1 id="khmer" class="mt-4">គណៈគ្រប់គ្រងនៃសាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ</h1>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th id="khmer" class="w-[10%] border text-center ">រូបថត</th>
+          <th id="khmer" class="w-[15%] border text-center ">ឈ្មោះ</th>
+          <th id="khmer" class="w-[15%] border text-center ">មុខងារ</th>
+          <th id="khmer" class="w-[15%] border text-center ">ទទួលបន្ទុក</th>
+          <th id="khmer" class="w-[15%] border text-center ">កំរិតសញ្ញាបត្រ</th>
+          <th id="khmer" class="w-[15%] border text-center ">សាកលវិទ្យាល័យ</th>
+          <th id="khmer" class="w-[15%] border text-center ">សញ្ញាបត្រ</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="p-4 border text-center"><img src="https://rupp.edu.kh/management_pic/chet_chealy_small.jpg" alt="">
+          </td>
+          <td class="p-4 border text-center">ឯ.បណ្ឌិត ជេត ជាលី<br />Chet Chealy</td>
+          <td class="p-4 border text-center">សាកលវិទ្យាធិការ</td>
+          <td class="p-4 border text-center">ទូទៅ</td>
+          <td class="p-4 border text-center">បណ្ឌិត</td>
+          <td class="p-4 border text-center">Nagoya University</td>
+          <td class="p-4 border text-center">
+            <img src="https://rupp.edu.kh/certificate/chet_chealy_english_small.jpg" alt="">
+            <img src="https://rupp.edu.kh/certificate/chet_chealy_japan_small.jpg" alt="">
+          </td>
+        </tr>
+        <tr>
+          <td class="p-4 border text-center"><img src="https://rupp.edu.kh/management_pic/sok_vanny_small.jpg" alt="">
+          </td>
+          <td class="p-4 border text-center">ឯ. បណ្ឌិត សុខ វណ្ណី<br />Sok Vanny</td>
+          <td class="p-4 border text-center">សាកលវិទ្យាធិការរង</td>
+          <td class="p-4 border text-center">ការងារស្រាវជ្រាវ និង សិក្សាក្រោយឧត្តម</td>
+          <td class="p-4 border text-center">បណ្ឌិត</td>
+          <td class="p-4 border text-center">Distance Learning Institutes, Indonesia</td>
+          <td class="p-4 border text-center">
+            <img src="https://rupp.edu.kh/certificate/sok_vanny_small.jpg" alt="">
+          </td>
+        </tr>
+        <tr>
+          <td class="p-4 border text-center"><img src="https://rupp.edu.kh/management_pic/ponnchhay_small.jpg" alt="">
+          </td>
+          <td class="p-4 border text-center">លោក ពន់ ឆាយ<br />Ponn Chhay</td>
+          <td class="p-4 border text-center">សាកលវិទ្យាធិការរង</td>
+          <td class="p-4 border text-center">ហិរញ្ញវត្ថុ គណនេយ្យ និងយុវជន</td>
+          <td class="p-4 border text-center">បរិញ្ញាបត្រជាន់ខ្ពស់</td>
+          <td class="p-4 border text-center">N/A</td>
+          <td class="p-4 border text-center">N/A</td>
+        </tr>
+        <tr>
+          <td class="p-4 border text-center"><img src="https://rupp.edu.kh/management_pic/oum_ravy_small.jpg" alt="">
+          </td>
+          <td class="p-4 border text-center">លោកស្រី បណ្ឌិត អ៊ុ រ៉ាវី<br />Oum Ravy</td>
+          <td class="p-4 border text-center">សាកលវិទ្យាធិការរង</td>
+          <td class="p-4 border text-center">ទំនាក់ទំនងអន្តរជាតិ និងកិច្ចការនិស្សិត</td>
+          <td class="p-4 border text-center">បណ្ឌិត</td>
+          <td class="p-4 border text-center">Sophia University</td>
+          <td class="p-4 border text-center">
+            <img src="https://rupp.edu.kh/certificate/oum_ravy_english_small.jpg" alt="">
+            <img src="https://rupp.edu.kh/certificate/oum_ravy_japan_small.jpg" alt="">
+          </td>
+        </tr>
+        <tr>
+          <td class="p-4 border text-center"><img src="https://rupp.edu.kh/management_pic/chet_chealy_small.jpg" alt="">
+          </td>
+          <td class="p-4 border text-center">លោក ប៉ាល់ ដែស<br />Phal Des</td>
+          <td class="p-4 border text-center">សាកលវិទ្យាធិការរង</td>
+
+          <td class="p-4 border text-center">ការសិក្សា និងគុណភាពអប់រំ</td>
+          <td class="p-4 border text-center">បរិញ្ញាបត្រជាន់ខ្ពស់</td>
+          <td class="p-4 border text-center">Université libre de Bruxelles</td>
+          <td class="p-4 border text-center">
+            <img src="https://rupp.edu.kh/certificate/phal_des_small.jpg" alt="">
+          </td>
+        </tr>
+        <tr>
+          <td class="p-4 border text-center"><img class="w-[200px]"
+              src="https://rupp.edu.kh/management_pic/Tak%20Bio%20Profile1%20(1).jpg" alt=""></td>
+          <td class="p-4 border text-center">លោក កៀន តាក់<br />Kean Tak</td>
+          <td class="p-4 border text-center">សាកលវិទ្យាធិការរង</td>
+          <td class="p-4 border text-center">ICT/Digital Technology, Industrial Linkages, Student Affairs, & Media</td>
+          <td class="p-4 border text-center">បរិញ្ញាបត្រជាន់ខ្ពស់</td>
+          <td class="p-4 border text-center">សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ​<br />Royal University of Phnom Penh</td>
+          <td class="p-4 border text-center">
+            <img class="w-[100px]" src="https://rupp.edu.kh/certificate/BAMathematics-KeanTak.jpg" alt="">
+            <img class="w-[110px]" src="https://rupp.edu.kh/certificate/MAScience-KeanTak.JPG" alt="">
+            <img class="w-[130px]" src="https://rupp.edu.kh/certificate/CertificatesPedaGogy-KeanTak.jpg" alt="">
+          </td>
+        </tr>
+        <tr>
+          <td class="p-4 border text-center"><img src="https://rupp.edu.kh/management_pic/chhun_hok_small.jpg" alt="">
+          </td>
+          <td class="p-4 border text-center">លោក ឈុនហុក<br />Chhun Hok</td>
+          <td class="p-4 border text-center">សាកលវិទ្យាធិការរង</td>
+          <td class="p-4 border text-center">រដ្ឋបាល និងបុគ្គលិក</td>
+          <td class="p-4 border text-center">បរិញ្ញាបត្រជាន់ខ្ពស់</td>
+          <td class="p-4 border text-center">N/A</td>
+          <td class="p-4 border text-center">N/A</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="fds" class="p-2 m-2">
+    <h1 class="text-2xl font-bold">Foundation Studies</h1>
+  </div>
+
+  <footer class="py-6 bg-gray-800 text-gray-400">
+    <div class="flex flex-col items-center justify-center self-center text-sm text-center md:space-x-6">
+      <span>All rights reserved, Copyright ©2023 Royal University of Phnom Penh
+        (RUPP)</span>
+      <span>Russian Federation Boulevard, Toul Kork, Phnom Penh, Cambodia</span>
+      <span>Tel: 855-23-883-640 Fax: 855-23-880-116</span>
+      <a rel="noopener noreferrer" href="#">
+        <span>Privacy policy</span>
+      </a>
+      <a rel="noopener noreferrer" href="#">
+        <span>Terms of service</span>
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>
